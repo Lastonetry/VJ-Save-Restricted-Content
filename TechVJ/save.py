@@ -66,13 +66,13 @@ def progress(current, total, message, type):
 @Client.on_message(filters.command(["start"]))
 async def send_start(client: Client, message: Message):
     buttons = [[
-        InlineKeyboardButton("❣️ Developer", url = "https://t.me/kingvj01")
+        InlineKeyboardButton("♻️ ᴅᴇᴠᴇʟᴏᴘᴇʀ ", url = "https://t.me/ThaFallenStar")
     ],[
-        InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/vj_bot_disscussion'),
-        InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/vj_botz')
+        InlineKeyboardButton('🚸 ᴄᴏɴᴛᴀᴄᴛ ᴀᴅᴍɪɴ', url='https://t.me/MetaZoWner'),
+        InlineKeyboardButton('🤖 ᴘᴀɪᴅ ᴠᴇʀsɪᴏɴ', url='https://t.me/ThaFallenStar')
 	]]
     reply_markup = InlineKeyboardMarkup(buttons)
-    await client.send_message(message.chat.id, f"<b>👋 Hi {message.from_user.mention}, I am Save Restricted Content Bot, I can send you restricted content by its post link.\n\nFor downloading restricted content /login first.\n\nKnow how to use bot by - /help</b>", reply_markup=reply_markup, reply_to_message_id=message.id)
+    await client.send_message(message.chat.id, f"<b>ʜᴇʏ ᴛʜᴇʀᴇ!\n🤖 ɪ ᴀᴍ ᴀ ᴘᴏᴡᴇғᴜʟ ʀᴇsᴛʀɪᴄᴛᴇᴅ ᴄᴏɴᴛᴇɴᴛ sᴀᴠᴇʀ ʙᴏᴛ 🚀\n\n🔒 ɪ ᴄᴀɴ sᴀᴠᴇ ғɪʟᴇs ғʀᴏᴍ:\n\n- 𝙋𝙍𝙄𝙑𝘼𝙏𝙀 ᴄʜᴀɴɴᴇʟs\n- 𝙋𝙐𝘽𝙇𝙄𝘾 ᴄʜᴀɴɴᴇʟs\n- 𝙍𝙀𝙎𝙏𝙍𝙄𝘾𝙏𝙀𝘿 ʙᴏᴛs\n\nℹ️ ғᴏʀ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀɴᴅ ɢᴜɪᴅᴀɴᴄᴇ ᴏɴ ʜᴏᴡ ᴛᴏ ᴜsᴇ, ᴄʟɪᴄᴋ ᴏɴ /help.</b>", reply_markup=reply_markup, reply_to_message_id=message.id)
     return
 
 
